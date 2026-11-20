@@ -1,0 +1,8 @@
+Selected calculation from the saved Adventure Works portfolio workbook.
+Line breaks adjusted for readability. This is an excerpt, not a complete workbook.
+
+{ FIXED [CustomerKey] :
+  SUM(IF [SalesTerritoryRegion] = "Northwest"
+      OR [SalesTerritoryRegion] = "Southwest"
+      THEN [SalesAmount] ELSE 0 END)
+}
