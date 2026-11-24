@@ -1,43 +1,5 @@
 # Tableau Analytics Showcase
 
-Two complete analysis stories, kept together with their visual evidence.
-
-## The problem
-
-Adventure Works compares customer value with segment size; Netflix compares ranking strength with time in the chart. Both projects make the denominator and observation period visible.
-
-## How it works
-
-![Simplified project architecture](docs/presentation/system-overview.svg)
-
-The diagram summarizes the documented workflow; it is not a performance result or a generated application screenshot.
-
-## Dashboard views
-
-[![Adventure Works customer-spending dashboard](tableau/adventure-works/media/customer-value.webp)](tableau/adventure-works/)
-
-Adventure Works compares individual customer spending with whole-segment contribution. The original dashboard and the second segment view remain in the case-study folder.
-
-[![Netflix ranking dashboard](tableau/netflix-rankings/media/ranking-overview.webp)](tableau/netflix-rankings/)
-
-Netflix compares accumulated ranking points with observed time in the Top 10. The original persistence view and selected calculation remain alongside it.
-
-## Run or inspect the work
-
-[Adventure Works](tableau/adventure-works/) · [Netflix rankings](tableau/netflix-rankings/). No installation is required: each folder includes its saved views, selected calculations and source context.
-
-## Evidence and scope
-
-The November 24, 2026 consolidation preserved both original histories and all twelve original files byte-for-byte. All original pictures and attribution remain in their project folders.
-
-These are historical coursework analyses. Original workbooks and row-level source spreadsheets remain private; GitHub images do not provide Tableau hover/sort interaction. The detailed case studies below preserve exact periods, results and exclusions.
-
-<details>
-
-<summary>Detailed setup, original screenshots and project reference</summary>
-
-# Tableau Analytics Showcase
-
 Two Tableau case studies about choosing the right comparison: how much a customer spends versus what a whole segment contributes, and how high a title ranks versus how long it stays in the chart.
 
 I built these projects for INFO 4120 using Excel source data and Tableau. Each folder contains the project write-up, saved dashboard views, selected calculations, and attribution.
@@ -79,4 +41,4 @@ The original workbooks and source spreadsheets are maintained privately. Instruc
 
 [More of my work](https://bronsonhatch.com)
 
-</details>
+![Project structure](docs/presentation/system-overview.svg)
