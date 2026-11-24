@@ -1,0 +1,4 @@
+Selected Points calculated field from the saved Netflix portfolio workbook.
+This is an excerpt, not a complete workbook or source dataset.
+
+11 - [Rank]
